@@ -5,11 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>My First Javascript code</h1>
     <p id="demo">Hello world!</p>
     <button type="button" onclick="document.getElementById('demo').style.display='block'">ON</button>
     <button type="button" onclick="document.getElementById('demo').style.display='none'">OFF</button>
+
+    <p id="paragraph">This is a paragraph.</p>
+    <button type="button" onclick="stuff()">Do something new</button>
+    <ul id="device-list">
+        <li class="item">Desk Lamp
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </li>
+        <li class="item">Bed Lamp
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </li>
+        <li class="item">AC
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </li>
+    </ul>
 </body>
 </html>
